@@ -1,0 +1,2 @@
+FROM vinzdrance/base-ssh
+
