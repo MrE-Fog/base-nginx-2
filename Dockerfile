@@ -1,7 +1,7 @@
 FROM vinzdrance/base-ssh
 
 RUN \
-add-apt-repository -y ppa:nginx/stable && \
+# add-apt-repository -y ppa:nginx/stable && \
 apt-get update && \
 apt-get install -y nginx && \
 echo "\ndaemon off;" >> /etc/nginx/nginx.conf && \
